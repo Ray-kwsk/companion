@@ -58,7 +58,322 @@
 			"assets/trayTemplate@2x.png",
 			"!font/*",
 			"!tools/*",
-			"!*.md"
+			"!*.md",
+			{
+				"from": "lib/module/youtube-live/node_modules",
+				"to": "lib/module/youtube-live/node_modules",
+				"filter": [
+					"!**/{test,__tests__,tests,powered-test,example,examples,CHANGELOG.md,README.md,README,readme.md,readme}",
+					"!**/*.d.ts",
+					"!**/.bin",
+					"!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
+					"!**/._*",
+					"!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
+					"!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
+					"!**/{appveyor.yml,.travis.yml,circle.yml}",
+					"!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
+				]
+			},
+			{
+				"from": "lib/module/vizio-smartcast/node_modules",
+				"to": "lib/module/vizio-smartcast/node_modules",
+				"filter": [
+					"!**/{test,__tests__,tests,powered-test,example,examples,CHANGELOG.md,README.md,README,readme.md,readme}",
+					"!**/*.d.ts",
+					"!**/.bin",
+					"!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
+					"!**/._*",
+					"!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
+					"!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
+					"!**/{appveyor.yml,.travis.yml,circle.yml}",
+					"!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
+				]
+			},
+			{
+				"from": "lib/module/avolites-ai/node_modules",
+				"to": "lib/module/avolites-ai/node_modules",
+				"filter": [
+					"!**/{test,__tests__,tests,powered-test,example,examples,CHANGELOG.md,README.md,README,readme.md,readme}",
+					"!**/*.d.ts",
+					"!**/.bin",
+					"!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
+					"!**/._*",
+					"!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
+					"!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
+					"!**/{appveyor.yml,.travis.yml,circle.yml}",
+					"!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
+				]
+			},
+			{
+				"from": "lib/module/barco-eventmaster/node_modules",
+				"to": "lib/module/barco-eventmaster/node_modules",
+				"filter": [
+					"!**/{test,__tests__,tests,powered-test,example,examples,CHANGELOG.md,README.md,README,readme.md,readme}",
+					"!**/*.d.ts",
+					"!**/.bin",
+					"!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
+					"!**/._*",
+					"!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
+					"!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
+					"!**/{appveyor.yml,.travis.yml,circle.yml}",
+					"!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
+				]
+			},
+			{
+				"from": "lib/module/behringer-x32/node_modules",
+				"to": "lib/module/behringer-x32/node_modules",
+				"filter": [
+					"!**/{test,__tests__,tests,powered-test,example,examples,CHANGELOG.md,README.md,README,readme.md,readme}",
+					"!**/*.d.ts",
+					"!**/.bin",
+					"!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
+					"!**/._*",
+					"!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
+					"!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
+					"!**/{appveyor.yml,.travis.yml,circle.yml}",
+					"!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
+				]
+			},
+			{
+				"from": "lib/module/bmd-atem/node_modules",
+				"to": "lib/module/bmd-atem/node_modules",
+				"filter": [
+					"!**/{test,__tests__,tests,powered-test,example,examples,CHANGELOG.md,README.md,README,readme.md,readme}",
+					"!**/*.d.ts",
+					"!**/.bin",
+					"!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
+					"!**/._*",
+					"!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
+					"!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
+					"!**/{appveyor.yml,.travis.yml,circle.yml}",
+					"!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
+				]
+			},
+			{
+				"from": "lib/module/bmd-hyperdeck/node_modules",
+				"to": "lib/module/bmd-hyperdeck/node_modules",
+				"filter": [
+					"!**/{test,__tests__,tests,powered-test,example,examples,CHANGELOG.md,README.md,README,readme.md,readme}",
+					"!**/*.d.ts",
+					"!**/.bin",
+					"!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
+					"!**/._*",
+					"!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
+					"!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
+					"!**/{appveyor.yml,.travis.yml,circle.yml}",
+					"!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
+				]
+			},
+			{
+				"from": "lib/module/generic-artnet/node_modules",
+				"to": "lib/module/generic-artnet/node_modules",
+				"filter": [
+					"!**/{test,__tests__,tests,powered-test,example,examples,CHANGELOG.md,README.md,README,readme.md,readme}",
+					"!**/*.d.ts",
+					"!**/.bin",
+					"!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
+					"!**/._*",
+					"!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
+					"!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
+					"!**/{appveyor.yml,.travis.yml,circle.yml}",
+					"!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
+				]
+			},
+			{
+				"from": "lib/module/generic-mqtt/node_modules",
+				"to": "lib/module/generic-mqtt/node_modules",
+				"filter": [
+					"!**/{test,__tests__,tests,powered-test,example,examples,CHANGELOG.md,README.md,README,readme.md,readme}",
+					"!**/*.d.ts",
+					"!**/.bin",
+					"!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
+					"!**/._*",
+					"!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
+					"!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
+					"!**/{appveyor.yml,.travis.yml,circle.yml}",
+					"!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
+				]
+			},
+			{
+				"from": "lib/module/generic-wakeonlan/node_modules",
+				"to": "lib/module/generic-wakeonlan/node_modules",
+				"filter": [
+					"!**/{test,__tests__,tests,powered-test,example,examples,CHANGELOG.md,README.md,README,readme.md,readme}",
+					"!**/*.d.ts",
+					"!**/.bin",
+					"!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
+					"!**/._*",
+					"!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
+					"!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
+					"!**/{appveyor.yml,.travis.yml,circle.yml}",
+					"!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
+				]
+			},
+			{
+				"from": "lib/module/hologfx-holographics/node_modules",
+				"to": "lib/module/hologfx-holographics/node_modules",
+				"filter": [
+					"!**/{test,__tests__,tests,powered-test,example,examples,CHANGELOG.md,README.md,README,readme.md,readme}",
+					"!**/*.d.ts",
+					"!**/.bin",
+					"!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
+					"!**/._*",
+					"!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
+					"!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
+					"!**/{appveyor.yml,.travis.yml,circle.yml}",
+					"!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
+				]
+			},
+			{
+				"from": "lib/module/homeassistant-server/node_modules",
+				"to": "lib/module/homeassistant-server/node_modules",
+				"filter": [
+					"!**/{test,__tests__,tests,powered-test,example,examples,CHANGELOG.md,README.md,README,readme.md,readme}",
+					"!**/*.d.ts",
+					"!**/.bin",
+					"!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
+					"!**/._*",
+					"!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
+					"!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
+					"!**/{appveyor.yml,.travis.yml,circle.yml}",
+					"!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
+				]
+			},
+			{
+				"from": "lib/module/jvc-ptz/node_modules",
+				"to": "lib/module/jvc-ptz/node_modules",
+				"filter": [
+					"!**/{test,__tests__,tests,powered-test,example,examples,CHANGELOG.md,README.md,README,readme.md,readme}",
+					"!**/*.d.ts",
+					"!**/.bin",
+					"!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
+					"!**/._*",
+					"!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
+					"!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
+					"!**/{appveyor.yml,.travis.yml,circle.yml}",
+					"!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
+				]
+			},
+			{
+				"from": "lib/module/magewell-ultrastream/node_modules",
+				"to": "lib/module/magewell-ultrastream/node_modules",
+				"filter": [
+					"!**/{test,__tests__,tests,powered-test,example,examples,CHANGELOG.md,README.md,README,readme.md,readme}",
+					"!**/*.d.ts",
+					"!**/.bin",
+					"!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
+					"!**/._*",
+					"!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
+					"!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
+					"!**/{appveyor.yml,.travis.yml,circle.yml}",
+					"!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
+				]
+			},
+			{
+				"from": "lib/module/malighting-msc/node_modules",
+				"to": "lib/module/malighting-msc/node_modules",
+				"filter": [
+					"!**/{test,__tests__,tests,powered-test,example,examples,CHANGELOG.md,README.md,README,readme.md,readme}",
+					"!**/*.d.ts",
+					"!**/.bin",
+					"!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
+					"!**/._*",
+					"!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
+					"!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
+					"!**/{appveyor.yml,.travis.yml,circle.yml}",
+					"!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
+				]
+			},
+			{
+				"from": "lib/module/obs-studio/node_modules",
+				"to": "lib/module/obs-studio/node_modules",
+				"filter": [
+					"!**/{test,__tests__,tests,powered-test,example,examples,CHANGELOG.md,README.md,README,readme.md,readme}",
+					"!**/*.d.ts",
+					"!**/.bin",
+					"!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
+					"!**/._*",
+					"!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
+					"!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
+					"!**/{appveyor.yml,.travis.yml,circle.yml}",
+					"!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
+				]
+			},
+			{
+				"from": "lib/module/panasonic-projector/node_modules",
+				"to": "lib/module/panasonic-projector/node_modules",
+				"filter": [
+					"!**/{test,__tests__,tests,powered-test,example,examples,CHANGELOG.md,README.md,README,readme.md,readme}",
+					"!**/*.d.ts",
+					"!**/.bin",
+					"!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
+					"!**/._*",
+					"!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
+					"!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
+					"!**/{appveyor.yml,.travis.yml,circle.yml}",
+					"!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
+				]
+			},
+			{
+				"from": "lib/module/sonos-speakers/node_modules",
+				"to": "lib/module/sonos-speakers/node_modules",
+				"filter": [
+					"!**/{test,__tests__,tests,powered-test,example,examples,CHANGELOG.md,README.md,README,readme.md,readme}",
+					"!**/*.d.ts",
+					"!**/.bin",
+					"!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
+					"!**/._*",
+					"!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
+					"!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
+					"!**/{appveyor.yml,.travis.yml,circle.yml}",
+					"!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
+				]
+			},
+			{
+				"from": "lib/module/studiocoast-vmix/node_modules",
+				"to": "lib/module/studiocoast-vmix/node_modules",
+				"filter": [
+					"!**/{test,__tests__,tests,powered-test,example,examples,CHANGELOG.md,README.md,README,readme.md,readme}",
+					"!**/*.d.ts",
+					"!**/.bin",
+					"!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
+					"!**/._*",
+					"!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
+					"!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
+					"!**/{appveyor.yml,.travis.yml,circle.yml}",
+					"!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
+				]
+			},
+			{
+				"from": "lib/module/thingm-blink1/node_modules",
+				"to": "lib/module/thingm-blink1/node_modules",
+				"filter": [
+					"!**/{test,__tests__,tests,powered-test,example,examples,CHANGELOG.md,README.md,README,readme.md,readme}",
+					"!**/*.d.ts",
+					"!**/.bin",
+					"!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
+					"!**/._*",
+					"!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
+					"!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
+					"!**/{appveyor.yml,.travis.yml,circle.yml}",
+					"!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
+				]
+			},
+			{
+				"from": "lib/module/twitch-api/node_modules",
+				"to": "lib/module/twitch-api/node_modules",
+				"filter": [
+					"!**/{test,__tests__,tests,powered-test,example,examples,CHANGELOG.md,README.md,README,readme.md,readme}",
+					"!**/*.d.ts",
+					"!**/.bin",
+					"!**/*.{iml,o,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,xproj}",
+					"!**/._*",
+					"!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
+					"!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
+					"!**/{appveyor.yml,.travis.yml,circle.yml}",
+					"!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
+				]
+			}
 		]
 	},
 	"scripts": {
